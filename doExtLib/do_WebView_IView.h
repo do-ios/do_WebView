@@ -22,6 +22,7 @@
 - (void)change_url:(NSString *)newValue;
 - (void)change_userAgent:(NSString *)newValue;
 - (void)change_zoom:(NSString *)newValue;
+- (void)change_scrollEnable:(NSString *)newValue;
 
 //同步或异步方法
 - (void)back:(NSArray *)parms;

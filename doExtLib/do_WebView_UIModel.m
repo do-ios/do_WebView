@@ -30,6 +30,7 @@
 	[self RegistProperty:[[doProperty alloc]init:@"url" :String :@"" :NO]];
 	[self RegistProperty:[[doProperty alloc]init:@"userAgent" :String :@"" :NO]];
 	[self RegistProperty:[[doProperty alloc]init:@"zoom" :Bool :@"false" :YES]];
+    [self RegistProperty:[[doProperty alloc]init:@"scrollEnable" :Bool :@"true" :NO]];
 
 }
 - (void)DidLoadView

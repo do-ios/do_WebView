@@ -181,6 +181,19 @@
                    "Type": "Boolean",
                    "Data": []
                    }
+                   },
+                   {
+                   "ID":"scrollEnable",
+                   "Name":"是否能滚动",
+                   "Type":"Bool",
+                   "DefaultValue":"true",
+                   "EditType":"1",
+                   "Group":"",
+                   "Description":"仅iOS有效",
+                   "Design":{
+                   "Type": "Boolean",
+                   "Data": []
+                   }
                    }
                    ],
     "Events": [

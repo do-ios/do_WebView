@@ -113,6 +113,8 @@ const float _urltimeout = 60;
     _isEncode = YES;
     
     _isBounces = YES;
+    
+    _webView.scrollView.scrollEnabled = true;
 }
 - (void)loadModuleJS
 {
@@ -250,6 +252,9 @@ const float _urltimeout = 60;
 
 #pragma mark -
 #pragma mark - change property
+- (void)change_scrollEnable:(NSString *)newValue {
+    _webView.scrollView.scrollEnabled = [newValue boolValue];
+}
 - (void)change_zoom: (NSString *)newValue
 {
     _ifZoom = [newValue boolValue];
